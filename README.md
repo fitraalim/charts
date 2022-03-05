@@ -1,1 +1,1 @@
-# charts
+# simple helm charts
