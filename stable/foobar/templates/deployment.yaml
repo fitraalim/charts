@@ -19,6 +19,6 @@ spec:
       containers:
       - name: foobar
         image: quay.io/fitraalim/foobar:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
-      imagePullPolicy: Always
