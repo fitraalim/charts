@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: foobar
-        image: fitraalim/foobar:latest
+        image: quay.io/fitraalim/foobar:latest
         ports:
         - containerPort: 5000

@@ -3,12 +3,12 @@ entries:
   foobar:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-06T06:02:36.73449+07:00"
+    created: "2022-03-06T06:38:52.954265+07:00"
     description: Simple REST API in Flask
-    digest: 0dffbc1105787a469d6ae1f0ed56a8fbd7ccf35e6aa323706f16e28856f26f2c
+    digest: 5a1c75702f2903c8840b97ea514dac5aedf647ea17bc3cb7c2b570150c952e8e
     name: foobar
     type: application
     urls:
     - https://fitraalim.github.io/charts/foobar-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-06T06:02:36.734124+07:00"
+generated: "2022-03-06T06:38:52.953494+07:00"
