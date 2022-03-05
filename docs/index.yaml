@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   foobar:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-03-06T05:48:39.887591+07:00"
-    description: A Helm chart for Kubernetes
-    digest: 46503339ef80affd4dd7c08560728e81c976be99111cde66195afe8fbe060449
+    appVersion: 1.0.0
+    created: "2022-03-06T06:02:36.73449+07:00"
+    description: Simple REST API in Flask
+    digest: 0dffbc1105787a469d6ae1f0ed56a8fbd7ccf35e6aa323706f16e28856f26f2c
     name: foobar
     type: application
     urls:
     - https://fitraalim.github.io/charts/foobar-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-06T05:48:39.886938+07:00"
+generated: "2022-03-06T06:02:36.734124+07:00"
