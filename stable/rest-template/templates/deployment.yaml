@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rest-template
+  labels:
+    app.kubernetes.io/name: rest-template
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rest-template
+      app.kubernetes.io/name: rest-template
+  template:
+    metadata:
+      labels:
+        app: rest-template
+        app.kubernetes.io/name: rest-template
+    spec:
+      containers:
+      - name: rest-template
+        image: quay.io/fitraalim/rest-template:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
