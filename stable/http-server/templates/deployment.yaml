@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http-server
+  labels:
+    app.kubernetes.io/name: http-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: http-server
+      app.kubernetes.io/name: http-server
+  template:
+    metadata:
+      labels:
+        app: http-server
+        app.kubernetes.io/name: http-server
+    spec:
+      containers:
+      - name: http-server
+        image: quay.io/fitraalim/http-server:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080

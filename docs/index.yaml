@@ -3,7 +3,7 @@ entries:
   foobar:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-06T06:53:24.58513+07:00"
+    created: "2022-03-06T19:49:28.932752+07:00"
     description: Simple REST API in Flask
     digest: 17dea0f1c7c264b53ab65f60d4bd8a641b04ff0c76ec098f1611011423cabfcb
     name: foobar
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://fitraalim.github.io/charts/foobar-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-06T06:53:24.584748+07:00"
+  http-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-06T19:49:28.932947+07:00"
+    description: Lightweight HTTP Server
+    digest: c2f7f8b657d8b8779edfa474b744df84b5e983977d8e31023a80338b39b719bd
+    name: http-server
+    type: application
+    urls:
+    - https://fitraalim.github.io/charts/http-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-06T19:49:28.932347+07:00"
