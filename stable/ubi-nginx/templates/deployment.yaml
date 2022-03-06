@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubi-nginx
+  labels:
+    app.kubernetes.io/name: ubi-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubi-nginx
+      app.kubernetes.io/name: ubi-nginx
+  template:
+    metadata:
+      labels:
+        app: ubi-nginx
+        app.kubernetes.io/name: ubi-nginx
+    spec:
+      containers:
+      - name: ubi-nginx
+        image: quay.io/fitraalim/ubi-nginx:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080

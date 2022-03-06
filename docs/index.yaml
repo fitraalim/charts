@@ -3,7 +3,7 @@ entries:
   foobar:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-06T19:49:28.932752+07:00"
+    created: "2022-03-06T20:03:03.280495+07:00"
     description: Simple REST API in Flask
     digest: 17dea0f1c7c264b53ab65f60d4bd8a641b04ff0c76ec098f1611011423cabfcb
     name: foobar
@@ -14,7 +14,7 @@ entries:
   http-server:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-06T19:49:28.932947+07:00"
+    created: "2022-03-06T20:03:03.280669+07:00"
     description: Lightweight HTTP Server
     digest: c2f7f8b657d8b8779edfa474b744df84b5e983977d8e31023a80338b39b719bd
     name: http-server
@@ -22,4 +22,15 @@ entries:
     urls:
     - https://fitraalim.github.io/charts/http-server-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-06T19:49:28.932347+07:00"
+  ubi-nginx:
+  - apiVersion: v2
+    appVersion: 1.20.1
+    created: "2022-03-06T20:03:03.280863+07:00"
+    description: NGINX on Red Hat Universal Base Image (UBI)
+    digest: 6158f40bd7054348ea3e918cb0fe4148b64c4892b74d9bec73e0a83296aed2de
+    name: ubi-nginx
+    type: application
+    urls:
+    - https://fitraalim.github.io/charts/ubi-nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-06T20:03:03.280178+07:00"
